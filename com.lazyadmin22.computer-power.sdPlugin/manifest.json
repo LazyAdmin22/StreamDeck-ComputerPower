@@ -1,0 +1,91 @@
+{
+	"Name": "Computer Power",
+	"Version": "0.1.0.0",
+	"Author": "LazyAdmin22",
+	"Actions": [
+		{
+			"Name": "Shutdown",
+			"UUID": "com.lazyadmin22.computer-power.shutdown",
+			"Icon": "imgs/actions/shutdown/icon",
+			"Tooltip": "Hold to shut the computer down.",
+			"Controllers": [
+				"Keypad"
+			],
+			"UserTitleEnabled": true,
+			"States": [
+				{
+					"Image": "imgs/actions/shutdown/key"
+				}
+			]
+		},
+		{
+			"Name": "Sleep",
+			"UUID": "com.lazyadmin22.computer-power.sleep",
+			"Icon": "imgs/actions/sleep/icon",
+			"Tooltip": "Hold to put the computer to sleep.",
+			"Controllers": [
+				"Keypad"
+			],
+			"UserTitleEnabled": true,
+			"States": [
+				{
+					"Image": "imgs/actions/sleep/key"
+				}
+			]
+		},
+		{
+			"Name": "Restart",
+			"UUID": "com.lazyadmin22.computer-power.restart",
+			"Icon": "imgs/actions/restart/icon",
+			"Tooltip": "Hold to restart the computer.",
+			"Controllers": [
+				"Keypad"
+			],
+			"UserTitleEnabled": true,
+			"States": [
+				{
+					"Image": "imgs/actions/restart/key"
+				}
+			]
+		},
+		{
+			"Name": "Logout",
+			"UUID": "com.lazyadmin22.computer-power.logout",
+			"Icon": "imgs/actions/logout/icon",
+			"Tooltip": "Hold to log out of Windows.",
+			"Controllers": [
+				"Keypad"
+			],
+			"UserTitleEnabled": true,
+			"States": [
+				{
+					"Image": "imgs/actions/logout/key"
+				}
+			]
+		}
+	],
+	"Category": "Computer Power",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Shutdown, sleep, restart, and log out with hold-to-confirm Stream Deck buttons.",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		},
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		}
+	],
+	"Nodejs": {
+		"Version": "24",
+		"Debug": "enabled"
+	},
+	"UUID": "com.lazyadmin22.computer-power"
+}
