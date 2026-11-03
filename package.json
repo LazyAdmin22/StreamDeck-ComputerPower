@@ -1,5 +1,6 @@
 {
     "name": "computer-power",
+    "license": "MIT",
     "scripts": {
         "build": "rollup -c",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.lazyadmin22.computer-power\""

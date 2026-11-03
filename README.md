@@ -1,5 +1,12 @@
 # Computer Power
 
+[![Latest release](https://img.shields.io/github/v/release/LazyAdmin22/StreamDeck-ComputerPower?label=release)](https://github.com/LazyAdmin22/StreamDeck-ComputerPower/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/LazyAdmin22/StreamDeck-ComputerPower/total)](https://github.com/LazyAdmin22/StreamDeck-ComputerPower/releases)
+[![License: MIT](https://img.shields.io/github/license/LazyAdmin22/StreamDeck-ComputerPower)](LICENSE)
+![Platform](https://img.shields.io/badge/platform-Windows-0078D6)
+![Stream Deck SDK](https://img.shields.io/badge/Stream%20Deck%20SDK-3-orange)
+![Node](https://img.shields.io/badge/node-%3E%3D24-339933)
+
 A Stream Deck plugin with four keys for controlling a Windows PC: **Shutdown**, **Sleep**, **Restart**, and **Logout**.
 
 ## Features
